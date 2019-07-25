@@ -1,3 +1,5 @@
+def mvn_version = 'M3'
+withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
 pipeline {
     agent any
     stages {
@@ -17,4 +19,5 @@ pipeline {
             }
         }
     }
+}
 }
