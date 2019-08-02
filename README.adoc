@@ -1,3 +1,4 @@
 This is the readme file for the project my-app.
 This app is a sample project for multibranch pipeline.
 Updated to test WIP
+Updated to test Mergeable Bot
